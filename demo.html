@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // for (let i=0; i<10; i++){
+    //   if(i % 3 == 2){
+    //     break;
+    //   }
+    //   document.write(i +'<br>');
+    // }
+
+
+    // let so=+prompt('nhap so');
+    // let kq='la so nt';
+    // for (let i=2; i<so; i++){
+    //     if (so% i == 0){
+    //         kq= 'khong phai so nt'
+    //     }
+    // }
+    // alert(kq)
+
+    // let x=1;
+    // let y=2;
+    // while (x<=144){
+    //     document.write(x+'<br>')
+    //     let  bientam = x;
+    //     x = y;
+    //     y= bientam +y;
+    // }
+    let x = +prompt('nhap so vao:');
+    for (let i = 0; ; i++) {
+        if (x <20) {
+            alert('tang le');
+            x = +prompt("nhap lai");
+        } else if (x > 100) {
+            alert('giam xuong');
+            x = +prompt('nhap lai');
+        } else {
+            alert('bt');
+            break;
+        }
+    }
+
+</script>
+</body>
+</html>
